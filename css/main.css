@@ -1,0 +1,738 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.wrapper__link{
+    font-size: 20px;
+}
+.wrapper__container{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 200px;
+}
+.wrapper__title{
+    width: 250px;
+    height: 240px;
+    margin-left: 300px;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.girls{
+    margin-left: 700px;
+    width: 661px;
+    height: 661px;
+    position: absolute;
+    margin-top: -400px;
+}
+.wrapper__link{
+    color: grey;
+}
+.logo{
+    position: absolute;
+    margin-top: -480px;
+    margin-left: 630px;
+}
+.wrapper__button{
+    margin-left: 300px;
+    margin-top: 30px;
+    width: 432px;
+    height: 108px;
+    background: black;
+    color: #fff;
+    font-size: 30px;
+}
+.wrapper__text{
+    width: 332px;
+    height: 108px;
+    margin-left: 300px;
+    margin-top: -50px;
+    font-size: 24px;
+}
+.wrapper__box{
+    margin-left: 120px;
+}
+button{
+   padding: 10px 50px;
+   color: black;
+   border: 2px solid black;
+   border-radius: 30px;
+}
+.wrapper__link:hover{
+    color: black;
+}
+.wrapper__list{
+    gap: 30px;
+    display: flex;
+}
+.hero__img{
+    width: 250px;
+    height: 250px;
+}
+.header_text{
+    margin-left: 700px;
+    font-size: 50px;
+}
+.header__cicle{
+    margin-top: 50px;
+    display: flex;
+    background: #F5F5F5;
+    width: 1150px;
+    height: 500px;
+    margin-left: 150px;
+    gap: 10px;
+}
+.header__button{
+    margin-top: 30px;
+}
+.header__list{
+    display: flex;
+    background: #F5F5F5;
+    width: 1150px;
+    height: 500px;
+    margin-left: 150px;
+    gap: 10px;
+}
+.hero__list{
+    display: flex;
+    gap: 30px;
+    max-width: 500px;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-top: -80px;
+}
+.hero_title{
+    font-size: 50px;
+    margin-left: 150px;
+    margin-top: 100px;
+    position: relative;
+}
+.main__img{
+    margin-left: 800px;
+    position: absolute;
+    margin-top: -430px;
+}
+.hero_text{
+    width: 635px;
+    height: 240px;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 80px;
+    position: relative;
+}
+.main__list{
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 150px;
+}
+.main_title{
+    font-size: 50px;
+    margin-left: 600px;
+}
+.main__buttonns{
+    margin-top: 30px;
+    position: absolute;
+}
+.main__button{
+    margin-top: 30px;
+    color: black;
+}
+.main__text{
+    width: 335px;
+    height: 30px;
+    position: relative;
+}
+.section__img{
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.section__title{
+    margin-left: 800px;
+    margin-top: -800px;
+}
+.section__text{
+    width: 476px;
+    height: 60px;
+    margin-left: 800px;
+    margin-top: 60px;
+}
+.section__list{
+    display: flex;
+    margin-top: 500px;
+}
+.run{
+    margin-left: 500px;
+    position: absolute;
+    margin-top: -500px;
+}
+.footer__list{
+    max-width: 1200px;
+    justify-content: space-around;
+    margin-top: -500px;
+}
+.footer__img{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.footer__text{
+    margin-left: 900px;
+    margin-top: -30px;
+}
+ @media ( max-width: 992px) {
+    .container{
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .wrapper__link{
+        font-size: 20px;
+        margin-top: 5px;
+        margin-left: -20px;
+    }
+    .wrapper__container{
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    }
+    .girls{
+        width: 430px;
+        height: 430px;
+        margin-left: 450px;
+        margin-top: -250px;
+    }
+    .logo{
+        margin-left: 190px;
+        margin-top: -440px;
+    }
+    button{
+        padding: 5px 80px;
+        color: black;
+        border: 2px solid black;
+        border-radius: 30px;
+        margin-right: 100px;
+        margin-left: 70px;
+        justify-content: end;
+       /* position: absolute;*/
+    }
+    .wrapper__list{
+        margin-left: 120px;
+        gap: 50px;
+    }
+    .box__list{
+        margin-left: -50px;
+    }
+    .wrapper__text{
+        flex-wrap: wrap;
+        margin-left: 30px;
+    }
+    .wrapper__button{
+        margin-left: 30px;
+        margin-top: 30px;
+        background: black;
+        color: #fff;
+        font-size: 30px;
+        padding: 40px 70px;
+        margin-top: -20px;
+    }
+    .header_text{
+        margin-left: 380px;
+    }
+    .header__title{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 80px;
+        text-align: left;
+    }
+    .header__text{
+       font-size: 18px;
+       font-weight: 400;
+       line-height: 21px;
+       text-align: left;
+       width: 285px;
+       height: 106px;
+    }
+    .header__button:hover{
+        padding: 10px 50px;
+        color: rgb(255, 255, 255);
+        border: 2px solid black;
+        background: black;
+        border-radius: 30px;
+    }
+    .header__button{
+        padding: 10px 50px;
+        color: black;
+        border: 2px solid black;
+        border-radius: 30px;
+        margin-top: -20px;
+        margin-left: -10px;
+    }
+    .header__list{
+        margin-left: -10px;
+        background: #F5F5F5;
+        width: 970px;
+        height: 600px;
+        justify-content: space-between;
+        max-width: 900px;
+    }
+    .header__cicle{
+        margin-left: -10px;
+        background: #F5F5F5;
+        width: 970px;
+        height: 600px;
+        justify-content: space-between;
+        max-width: 900px;
+    }
+    .hero_title{
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: -30px;
+    }
+    .wrapper__title{
+        margin-left: 50px;
+    }
+    .hero_text{
+        width: 435px;
+        height: 192px;
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .main__img{
+        width: 300px;
+        height: 300px;
+        margin-left: 600px;
+        margin-top: -250px;
+    }
+    .hero__list{
+        margin-left: 30px;
+    }
+    .main_title{
+        margin-left: 450px;
+    }
+    .hero__img{
+       width: 222px;
+       height: 222px;
+    }
+    .main__title{
+        width: 273px;
+        height: 34px;
+        font-size: 22px;        
+    }
+    .main__button{
+        padding: -10px 80px;
+        color: black;
+        border: 2px solid black;
+        border-radius: 30px;
+        margin-left: -50px;
+        gap: 100px;
+    }
+    .main__item{
+        margin-left: -130px;
+        justify-content: space-between;
+        max-width: 900px;
+        gap: 50px;
+        margin-right: -130px;
+    }
+    .main__list{
+        max-width: 700px;
+        justify-content:  space-between;
+    }
+    .main__button:hover{
+        padding: 10px 80px;
+        color: #fff;
+        background: black;
+        border: 2px solid black;
+        border-radius: 30px;
+    }
+    .main__text{
+        width: 235px;
+        height: 72px;
+        font-size: 16px;  
+        margin-left: -30px;      
+    }
+    .section__img{
+        width: 312px;
+        height: 281px;
+    }
+    .section__title{
+        margin-left: 450px;
+        margin-top: -700px;
+    }
+    .section__text{
+        margin-left: 450px;
+    }
+    .run{
+        margin-left: -30px;
+        width: 929px;
+        height: 1px;
+    }
+    .footer__list{
+        max-width: 700px;
+        justify-content: space-around;
+        margin-left: -80px;
+    }
+    .footer__img{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .footer__text{
+        margin-left: 600px;
+        margin-top: -30px;
+        width: 700px;
+        height: 10px;
+    }
+}
+@media (max-width: 767px) {
+    .wrapper__list{
+        display: flex;
+        position: absolute;
+        top: 70px;
+        left: 20px;
+        display: none;
+        flex-direction: column;
+     }    
+    button{
+        display: flex;
+        padding: 10px 50px;
+        margin-left: 450px;
+     }
+     .button:hover{
+        color: #fff;
+        background: black;
+     }
+    #hamburger{
+        display: block;
+     }
+     .girls{
+        width: 360px;
+        height: 360px;
+        margin-left: 350px;
+        margin-top: -230px;
+    }
+    .logo{
+        margin-left: 190px;
+        margin-top: -400px;
+    }
+    .wrapper__button{
+        margin-left: 60px;
+        margin-top: 80px;
+        width: 272px;
+        height: 70px;
+        background: black;
+        color: #fff;
+        font-size: 25px;
+    }
+    .wrapper__title{
+        font-size: 30px;
+    }
+    .wrapper__text{
+        width: 202px;
+        height: 88px;
+        margin-left: 50px;
+        margin-top: -150px;
+        font-size: 24px;
+    }
+    .header__title{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 80px;
+        text-align: left;
+    }
+    .header__text{
+       font-size: 18px;
+       font-weight: 400;
+       line-height: 21px;
+       text-align: left;
+       width: 200px;
+       height: 80px;
+    }
+    .header__button:hover{
+        padding: 10px 50px;
+        color: rgb(255, 255, 255);
+        border: 2px solid black;
+        background: black;
+        border-radius: 30px;
+    }
+    .header__button{
+        padding: 10px 50px;
+        color: black;
+        border: 2px solid black;
+        border-radius: 30px;
+        margin-top: 40px;
+        margin-left: -10px;
+    }
+    .header__list{
+        margin-left: -10px;
+        background: #F5F5F5;
+        width: 680px;
+        height: 600px;
+        justify-content: space-between;
+        max-width: 900px;
+    }
+    .logotip{
+        margin-right: 200px;
+    }
+    .header__titles{
+        margin-left: 100px;
+        font-size: 20px;
+    }
+    .header__texts{
+        margin-left: 30px;
+        margin-top: 50px;
+        width: 300px;
+        height: 80px;
+    }
+    .header__cicle{
+        margin-left: -10px;
+        background: #F5F5F5;
+        width: 680px;
+        height: 600px;
+        justify-content: space-between;
+        max-width: 700px;
+        gap: 100px;
+    }.header__buttons:hover{
+        padding: -10px 80px;
+        color: rgb(255, 255, 255);
+        border: 2px solid black;
+        border-radius: 30px;
+        background: black;
+    }
+    .header__button:hover{
+       padding: -10px 80px;
+        color: rgb(255, 255, 255);
+        border: 2px solid black;
+        border-radius: 30px;
+        background: black;
+    }
+    .header__buttons{
+        padding: -10px 80px;
+        color: black;
+        border: 2px solid black;
+        border-radius: 30px;
+        margin-left: 50px;
+    }
+    .hero__list{
+        margin-left: -50px;
+        max-width: 300px;
+        justify-content: space-around;
+    }
+    .hero__title{
+        font-size: 18px;
+    }
+    .hero__text{
+        font-size: 10px;
+    }
+    .main__img{
+        width: 180px;
+        height: 180px;
+        margin-left: 500px;
+    }
+    .main_title{
+        margin-left: 280px;
+    }
+    .main__list{
+        max-width: 500px;
+        justify-content:  space-between;
+    }
+    .main__button{
+        padding: 10px 50px;
+        color: #fff;
+        background: rgb(0, 0, 0);
+        border: 2px solid black;
+        border-radius: 30px;
+        margin-top: 80px;
+    }
+    .main__button:hover{
+        padding: 10px 80px;
+        color: #fff;
+        background: black;
+        border: 2px solid black;
+        border-radius: 30px;
+    }
+    .main__text{
+        width: 135px;
+        height: 72px;
+        font-size: 16px;  
+        margin-left: -30px;      
+    }
+    .section__img{
+        width: 212px;
+        height: 181px;
+        margin-left: 30px;
+    }
+    .section__img{
+        width: 312px;
+        height: 281px;
+    }
+    .section__title{
+        margin-left: 350px;
+        margin-top: -700px;
+    }
+    .section__text{
+        margin-left: 300px;
+        width: 300px;
+        height: 76px;
+    }
+    .run{
+        width: 500px;
+        height: 5px;
+    }
+    .footer__list{
+        max-width: 500px;
+        justify-content: space-around;
+        margin-left: -200px;
+    }
+    .footer__img{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .footer__text{
+        margin-left: 500px;
+        margin-top: -30px;
+        width: 700px;
+        height: 10px;
+    }
+}
+@media (max-width: 575px) {
+    .wrapper__list{
+        display: flex;
+        position: absolute;
+        top: 70px;
+        left: 20px;
+        display: none;
+        flex-direction: column;
+     }    
+    button{
+        display: flex;
+        padding: 10px 50px;
+        margin-left: 280px;
+     }
+     .button:hover{
+        color: #fff;
+        background: black;
+     }
+    #hamburger{
+        display: block;
+     }
+     .girls{
+        width: 424px;
+        height: 424px;
+        margin-top: 10px;
+        margin-left: 80px;
+     }
+     .header{
+        margin-top: 300px;
+     }
+     .wrapper__title{
+        font-size: 40px;
+          width: 491px;
+          height: 41px;
+          margin-left: 70px;
+
+     }
+     .wrapper__text{
+        width: 432px;
+        height: 42px;
+     }
+     .wrapper__button{
+        display: none;
+     }.header__title{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 80px;
+        text-align: left;
+    }
+    .header__text{
+       font-size: 18px;
+       font-weight: 400;
+       line-height: 21px;
+       text-align: left;
+       width: 200px;
+       height: 80px;
+    }
+   
+    .header__button:hover{
+        padding: 10px 50px;
+        color: rgb(255, 255, 255);
+        border: 2px solid black;
+        background: black;
+        border-radius: 30px;
+    }
+    .header__cicle{
+        margin-top: 500px;
+        margin-left: 100px;
+        background: #F5F5F5;
+        width: 680px;
+        height: 600px;
+        justify-content: space-between;
+        max-width: 300px;
+        display: block;
+    }
+    .header__button{
+        padding: 10px 50px;
+        color: black;
+        border: 2px solid black;
+        border-radius: 30px;
+        margin-top: 40px;
+        margin-left: -10px;
+    }
+    .header__list{
+        margin-left: 100px;
+        background: #F5F5F5;
+        width: 680px;
+        height: 600px;
+        justify-content: space-between;
+        max-width: 300px;
+        display: block;
+    }
+    .hero{
+        margin-top: 500px;
+    }
+    .hero__list{
+        display: flex;
+        gap: 30px;
+        max-width: 500px;
+        justify-content: space-around;
+        margin-left: 80px;
+        margin-top: -80px;
+    }
+    .main__img{
+        margin-top: 2px;
+        margin-left: 100px;
+        width: 300px;
+        height: 250px;
+        position: absolute;
+    }
+    .main{
+        margin-top: 200px;
+    }
+    .main__text{
+        width: 400px;
+        height: 35px;
+    }
+    .main__list {
+        display: flex;
+        max-width: 1000px;
+        justify-content: space-between;
+        gap: 50px;
+        margin-left: 150px;
+        display: block;
+        margin-left: 200px;
+    }
+    .section__img{
+        margin-left: 100px;
+    }
+    .section__list{
+        margin-top: 700px;
+        margin-left: -200px;
+    }
+    .footer__text{
+        margin-left: 330px;
+    }
+}
